@@ -1,0 +1,104 @@
+# ============================================================
+#  .gitignore — Spring Boot (Maven / Gradle) + IDEs + SO
+# ============================================================
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Mantener el Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Spring Boot ###
+HELP.md
+*.log
+logs/
+spring-shell.log
+
+### Configuración local y secretos ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+*.pem
+*.key
+
+### Bases de datos locales (H2 en fichero, etc.) ###
+*.db
+*.mv.db
+*.trace.db
+
+### Java ###
+*.class
+*.jar
+!**/maven-wrapper.jar
+!**/gradle-wrapper.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+### Varios ###
+*.tmp
+*.bak
+*.swp
+*~
