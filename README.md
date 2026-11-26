@@ -36,6 +36,10 @@ Al finalizar, el alumnado será capaz de:
 | 7   | Comparativa: Hexagonal vs Clean Architecture vs Vertical Slice    | [docs/day-07](docs/day-07/) |
 | 8   | Proyecto final — "Del monolito al hexágono"                       | [docs/day-08](docs/day-08/) |
 
+**Material complementario:** [docs/ejercicio-pizza-isp](docs/ejercicio-pizza-isp/) —
+ejercicio con el dominio `Pizza`: repositorios con ISP (`IAdd`/`IGet`/`IUpdate`/`IRemove`),
+adaptadores JPA con *default methods*, mappers con rehidratación y el `Locator`.
+
 Cada carpeta empieza por un `00-README.md` con la agenda del día y continúa
 con un fichero por tema (`01-…md`, `02-…md`, …). Todos los temas siguen la
 misma estructura: problema → definición → *Bad* → *Good* → diagrama →
